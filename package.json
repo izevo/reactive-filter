@@ -14,7 +14,7 @@
     "url": "git+https://github.com/izevo/reactive-filter.git"
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "reactive",
