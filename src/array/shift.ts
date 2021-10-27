@@ -12,6 +12,6 @@ export function shift<T>(array: T[], filter: FilterFunction<T>) {
         return item;
       }
     }
-    return undefined;
+    // return undefined;
   };
 }

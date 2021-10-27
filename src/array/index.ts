@@ -27,9 +27,9 @@ export function filterArray<T>(array: T[], filter: FilterFunction<T>) {
       // console.debug('get', `[${String(property)}]`);
       return (
         {
-          push: push(target),
+          push: push(target, filter),
           pop: pop(target, filter),
-          unshift: unshift(target),
+          unshift: unshift(target, filter),
           shift: shift(target, filter),
           splice: splice(target, filter),
         }[property] || target.filter(filter)[property]
